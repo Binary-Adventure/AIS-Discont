@@ -2,7 +2,7 @@ import psycopg2
 import secrets
 import string
 from typing import List, Optional
-from ..config import Config
+from config import Config
 
 from .models import Receipt, Transaction, Client, Card, CardType, BonusAccount
 
