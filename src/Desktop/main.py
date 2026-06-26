@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QApplication, QMessageBox
-from ..config import config
-from ..Desktop.main_window import AuthDialog
+from config import config
+from Desktop.main_window import AuthDialog
 
 
 import sys

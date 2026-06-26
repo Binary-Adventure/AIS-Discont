@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import (
     QTabWidget, QLineEdit, QPushButton, QTableWidget, QHeaderView,
     QTableWidgetItem, QLabel, QGroupBox, QMessageBox, QDoubleSpinBox
 )
-from ..Desktop.base_window import BaseWindow
+from Desktop.base_window import BaseWindow
 
 
 class UserWindow(BaseWindow):

@@ -1,6 +1,6 @@
 import requests
 from PyQt6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QMessageBox
-from ..config import config
+from config import config
 
 class BaseWindow(QMainWindow):
     API_URL = config.api.url
